@@ -17,15 +17,27 @@ h2{
 .flexible-banner{
     display: flex;
     margin-bottom: 150px;
+  
+} 
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .half-width{
     padding-left:3% ;
     width: 50%;
+
 }
 
 .half-width img{
     width: 80%;
 }
+
+.text-justify{
+    text-align: justify;
+}
+
 
 .link-hire{
     text-decoration: none;
@@ -52,5 +64,18 @@ margin-left: 5%;
 margin-right: 5%;
 padding: 25px 30px 50px 25px;
 box-shadow: 10px 10px 40px gray;
-    
+}
+#baby-exp{
+    border-image: linear-gradient(blue, white);
+    border-image-slice:1 ;
+    border-left: 7px solid;
+}
+#full-exp{
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice:1 ;
+    border-left: 7px solid;
+}
+
+footer p{
+    text-align: center;
 }
